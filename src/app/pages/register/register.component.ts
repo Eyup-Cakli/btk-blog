@@ -24,4 +24,8 @@ export class RegisterComponent {
   home(){
     this.router.navigateByUrl('home');
   }
+
+  login(){
+    this.router.navigateByUrl('');
+  }
 }
