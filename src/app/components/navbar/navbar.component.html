@@ -1,0 +1,28 @@
+<div class="navbar-container">
+  <div class="navbar">
+    <div class="navbar-items">
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Home" (click)="goToHome()">
+        <mat-icon>home</mat-icon>
+      </button> 
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Profile" (click)="goToProfile()">
+        <mat-icon>person</mat-icon>
+      </button>   
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Add">
+        <mat-icon>add</mat-icon>
+      </button>
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Notifications">
+        <mat-icon>notifications</mat-icon>
+      </button>
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Settings" (click)="goToSettings()">
+        <mat-icon>settings</mat-icon>
+      </button>
+    </div>
+    
+    <div class="filter-div">
+      <input class="input" matInput (keyup)="applyFilter($event)" placeholder="Search..." #input>
+      <button class="navbar-item" mat-icon-button color="primary" aria-label="Add" (click)="logout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

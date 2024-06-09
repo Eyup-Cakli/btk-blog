@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .login-header {
+    margin-bottom: 75px;
+    color: #60A990;
+  }
+
+  .login-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    .email-full-width {
+      width: 100%;
+    }
+
+    .password-full-width {
+      width: 100%;
+    }
+
+    .login-buttons {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .login-button {
+        border-radius: 0%;
+        width: 50%;
+        background-color: #60A990;
+      }
+      .register-button {
+        border-radius: 0%;
+        width: 50%;
+        margin-top: 10px;
+        color: #60A990;
+      }
+    }
+  }
+}

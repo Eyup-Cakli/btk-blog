@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="container">
+
+  <div class="container">
+    @for(data of filteredData; track $index) {
+      <app-card [data]="data"></app-card>
+    }
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+  </div>
+</div>
