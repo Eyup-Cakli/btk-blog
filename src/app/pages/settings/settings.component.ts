@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { NavbarComponent } from "../components/navbar/navbar.component";
+import { NavbarComponent } from "../../components/navbar/navbar.component";
 
 @Component({
     selector: 'app-settings',
